@@ -17,7 +17,7 @@ export default {
     return {
       headline: this.cardObj.Headline,
       subHeadline: this.cardObj["Sub-headline"],
-      headerImg: this.cardObj["Header image"] ? this.cardObj["Header image"][0].url : "src/assets/logo.png"
+      headerImg: this.cardObj["Header image"] ? this.cardObj["Header image"][0].url : "../src/assets/logo.png"
     };
   }
 }
